@@ -1,0 +1,42 @@
+$black: #383838;
+$blue: #459AC1;
+$hotpink: #EC5D62;
+
+body {
+  font-family: futura;
+  background-color: $blue;
+  text-align: center;
+}
+
+.covervid-wrapper {
+  position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: -100;
+}
+
+.social {
+  width: 5%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.social:hover {
+  opacity: .5;
+}
+
+.top-bar {
+  background-color: $hotpink;
+}
+
+.top-bar-middle {
+  padding: 15px;
+}
+
+#logo {
+  max-width: 40%;
+  max-height: 40%;
+}
