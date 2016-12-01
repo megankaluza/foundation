@@ -8,9 +8,19 @@ body {
   text-align: center;
 }
 
+.arrow {
+  position: absolute;
+  bottom: 30px;
+  opacity: .5;
+}
+
+.arrow:hover {
+  opacity: 1;
+}
+
 .content {
-  position: fixed;
-  clear: both;
+  position: relative;
+  height: 25px;
 }
 .covervid-wrapper {
   // position: fixed;
@@ -32,11 +42,6 @@ body {
   height: auto;
   z-index: -100;
   transform: translate(-50%, -50%);
-}
-
-.section2 {
-  background-color: white;
-  height: 50%;
 }
 
 .social {
@@ -66,4 +71,11 @@ body {
 #logo {
   max-width: 40%;
   max-height: 40%;
+}
+
+#section {
+  position: relative;
+  // background-color: white;
+  // height: 50%;
+  display: none;
 }
