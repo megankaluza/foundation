@@ -12,18 +12,12 @@ body {
   position: absolute;
   bottom: 30px;
   opacity: .5;
+  &:hover {
+    opacity: .5;
+  }
 }
 
-.arrow:hover {
-  opacity: 1;
-}
-
-.content {
-  position: relative;
-  height: 25px;
-}
 .covervid-wrapper {
-  // position: fixed;
    top: 0;
    right: 0;
    bottom: 0;
@@ -48,10 +42,9 @@ body {
   width: 5%;
   margin-left: 10%;
   margin-top: 2%;
-}
-
-.social:hover {
-  opacity: .5;
+  &:hover {
+    opacity: .5;
+  }
 }
 
 .top-bar {
@@ -71,11 +64,12 @@ body {
 #logo {
   max-width: 40%;
   max-height: 40%;
+  &:hover {
+    opacity: .5;
+  }
 }
 
 #section {
   position: relative;
-  // background-color: white;
-  // height: 50%;
   display: none;
 }
